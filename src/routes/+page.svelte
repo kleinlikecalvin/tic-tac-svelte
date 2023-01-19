@@ -17,7 +17,6 @@
 			turn = 'O';
 		}
 	};
-	console.log('toad');
 
 	function getMessage(hasWinner: Player | false, currentPlayer: Player, fullBoard: boolean) {
 		if (hasWinner) {
